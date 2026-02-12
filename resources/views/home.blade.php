@@ -26,6 +26,10 @@
                 LOAD MORE
             </button>
         </div>
+
+        <button class="cur-series">
+            CURRENT SERIES
+        </button>
         
     </div>
     <div class="links">

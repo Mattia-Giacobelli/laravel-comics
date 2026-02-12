@@ -50,6 +50,8 @@ main {
 
 .comics {
 
+    padding-top: 2rem;
+    position: relative;
 
     .row {
         padding-top: 1rem;
@@ -63,7 +65,7 @@ main {
         color: white;
 
         .card-img {
-            height: 160px;
+            height: 165px;
             width: 160px;
 
             img {
@@ -84,7 +86,19 @@ main {
         color: white;
         margin-bottom: 1rem;
         border: none;
-        padding: 0.4rem;
+        padding: 0.4rem 2rem;
+    }
+
+    .cur-series {
+        background-color: #0c7cec;
+        color: white;
+        border: none;
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 0.4rem 1.2rem;
+        position: absolute;
+        top: -23px;
+        left: -5px;
     }
 
 }
@@ -121,7 +135,7 @@ main {
 footer {
 
     background-image: url(../img/footer-bg.jpg);
-    min-height: 50vh;
+
 
     .footer-logo {
         background-image: url(../img/dc-logo-bg.png);
@@ -136,6 +150,7 @@ footer {
 
 
             a {
+
                 color: lightgrey;
                 text-decoration: none;
             }
@@ -144,6 +159,34 @@ footer {
 
                 margin-bottom: -7.5rem;
             }
+        }
+    }
+
+    .social {
+
+        background-color: rgb(46, 45, 45);
+
+        .sign-btn {
+
+            color: white;
+            background-color: rgb(46, 45, 45);
+            border: 1px solid #0c7cec;
+            padding: 0.6rem;
+        }
+
+        h4 {
+
+            margin: 0;
+            padding-right: 0.8rem;
+            color: #0c7cec;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        img {
+
+            width: 12%;
+            padding-right: 0.5rem;
         }
     }
 

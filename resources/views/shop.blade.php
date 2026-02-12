@@ -8,7 +8,4 @@
 @section('content')
     <h1>Shop</h1>
 
-    <x-card>
-    
-    </x-card> 
 @endsection

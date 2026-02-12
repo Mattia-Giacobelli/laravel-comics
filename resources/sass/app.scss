@@ -44,6 +44,8 @@
 
 main {
     background-color: black;
+    color: #0c7cec;
+    min-height: 70vh;
 }
 
 .comics {
@@ -77,4 +79,44 @@ main {
         }
     }
 
+    .load-btn {
+        background-color: #0c7cec;
+        color: white;
+        margin-bottom: 1rem;
+        border: none;
+        padding: 0.4rem;
+    }
+
+}
+
+
+//
+/*FOOTER*/
+//
+
+footer {
+
+    .links {
+        background-color: #0c7cec;
+        color: white;
+        padding: 1.5rem 0 1.5rem 0;
+
+        .col {
+            display: flex;
+            align-items: center;
+        }
+
+        img {
+            width: 30%;
+            padding-right: 0.4rem;
+        }
+
+        span {
+            font-size: 0.8rem;
+        }
+
+        .locator {
+            width: 20%;
+        }
+    }
 }

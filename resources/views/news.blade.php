@@ -8,7 +8,4 @@
 @section('content')
     <h1>News</h1>
 
-    <x-card>
-    
-    </x-card> 
 @endsection

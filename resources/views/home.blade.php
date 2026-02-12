@@ -21,6 +21,11 @@
             @endforeach
             
         </div>
+        <div class="d-flex justify-content-center">
+            <button class="load-btn">
+                LOAD MORE
+            </button>
+        </div>
     </div>
 
      

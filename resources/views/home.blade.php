@@ -6,9 +6,22 @@
 
 
 @section('content')
-    <h1>Home</h1>
+    <div class="jumbotron"></div>
 
-    <x-card>
-    
-    </x-card> 
+    <div class="container comics">
+        <div class="row row-cols-6">
+            
+            @foreach ($comics as $comic)
+                <div class="col">
+                    <x-card>
+                        <x-slot:thumb>{{$comic['thumb']}}</x-slot:thumb>
+                        <x-slot:title> {{$comic['title']}} </x-slot:title>
+                    </x-card>
+                </div>
+            @endforeach
+            
+        </div>
+    </div>
+
+     
 @endsection

@@ -28,3 +28,53 @@
         }
     }
 }
+
+/*JUMBO*/
+
+.jumbotron {
+    background-image: url(../img/jumbotron.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+//
+/*MAIN*/
+//
+
+main {
+    background-color: black;
+}
+
+.comics {
+
+
+    .row {
+        padding-top: 1rem;
+    }
+
+    .card {
+        border: none;
+        height: 230px;
+        margin-bottom: 0.8rem;
+        background-color: black;
+        color: white;
+
+        .card-img {
+            height: 160px;
+            width: 160px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: 1px 1px;
+            }
+        }
+
+        .card-title {
+            font-size: 0.65rem;
+        }
+    }
+
+}

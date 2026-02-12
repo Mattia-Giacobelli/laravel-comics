@@ -6,6 +6,8 @@
 
 
 @section('content')
-    <h1>Shop</h1>
+    <h1 class="text-center">Shop</h1>
+
+
 
 @endsection

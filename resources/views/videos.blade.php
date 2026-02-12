@@ -6,6 +6,10 @@
 
 
 @section('content')
-    <h1>Videos</h1>
+    <h1 class="text-center">Videos</h1>
+
+    <x-shop-links>
+        
+    </x-shop-links>
 
 @endsection

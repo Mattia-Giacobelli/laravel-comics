@@ -6,6 +6,10 @@
 
 
 @section('content')
-    <h1>games</h1>
+    <h1 class="text-center">Games</h1>
+
+    <x-shop-links>
+        
+    </x-shop-links>
 
 @endsection

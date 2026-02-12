@@ -89,6 +89,30 @@ main {
 
 }
 
+.links {
+    background-color: #0c7cec;
+    color: white;
+    padding: 1.5rem 0 1.5rem 0;
+
+    .col {
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        width: 30%;
+        padding-right: 0.4rem;
+    }
+
+    span {
+        font-size: 0.8rem;
+    }
+
+    .locator {
+        width: 20%;
+    }
+}
+
 
 //
 /*FOOTER*/
@@ -96,27 +120,31 @@ main {
 
 footer {
 
-    .links {
-        background-color: #0c7cec;
-        color: white;
-        padding: 1.5rem 0 1.5rem 0;
+    background-image: url(../img/footer-bg.jpg);
+    min-height: 50vh;
 
-        .col {
-            display: flex;
-            align-items: center;
-        }
+    .footer-logo {
+        background-image: url(../img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: 52%;
 
-        img {
+        .footer-links {
+
+            color: white;
             width: 30%;
-            padding-right: 0.4rem;
-        }
 
-        span {
-            font-size: 0.8rem;
-        }
 
-        .locator {
-            width: 20%;
+            a {
+                color: lightgrey;
+                text-decoration: none;
+            }
+
+            .m-neg {
+
+                margin-bottom: -7.5rem;
+            }
         }
     }
+
 }
